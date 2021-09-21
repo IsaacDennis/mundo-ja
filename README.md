@@ -21,7 +21,7 @@
 - Patrícia Teixeira
 # Sobre o jogo
 O projeto foi desenvolvido através do ambiente on-line [Replit](https://repl.it). 
-Jogue-o acessando este [link](https://games4good.geovannasousa.repl.co/) 
+Jogue-o acessando este [link](https://games4good.geovannasousa.repl.co/). 
 # Índice de conceitos do Phaser
 <details> 
   <summary> Efeitos de câmera </summary>
@@ -43,4 +43,11 @@ Jogue-o acessando este [link](https://games4good.geovannasousa.repl.co/)
   - [Colisão (collider)](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/fase-um/Scene2.js#L81-L82)
   - [Sobreposição (overlap)](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/fase-um/Scene2.js#L127)
   - [Área modificada de colisão (no exemplo, a área de colisão (collision bounds) é definida para ocupar somente os pés do sprite)](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/fase-um/Scene2.js#L63-L64)
+</details>
+
+<details> 
+  <summary> Música </summary>
+   
+  - [Carregamento de áudio](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/CreditsScene.js#L18)
+  - [Adição e reprodução de áudio](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/CreditsScene.js#L25-L26)
 </details>
