@@ -51,3 +51,10 @@ Jogue-o acessando este [link](https://games4good.geovannasousa.repl.co/).
   - [Carregamento de áudio](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/CreditsScene.js#L18)
   - [Adição e reprodução de áudio](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/CreditsScene.js#L25-L26)
 </details>
+
+<details> 
+  <summary> Animações </summary>
+  
+  - [Carregamento de spritesheets](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/GameScene.js#L26-L35)
+  - [Criação de animação](https://github.com/IsaacDennis/mundo-ja/blob/master/scenes/fase-um/Scene2.js#L23-L52)
+</details>
