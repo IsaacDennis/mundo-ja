@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Mundo JA</title>
+    <script src="https://cdn.jsdelivr.net/gh/leonyoung1/game-lib/phaser.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/leonyoung1/game-lib/helper.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/leonyoung1/game-lib/addons.js"></script>
+    <script src="scenes/GameScene.js"></script>
+    <script src="scenes/CreditsScene.js"></script>
+    <script src="scenes/TutorialScene.js"></script>
+    <script src="scenes/MenuScene.js"></script>
+    <script src="scenes/GameOverScene.js"></script>
+    <script src="scenes/ChoiceScene.js"></script>
+    <script src="scenes/ProgramsScene.js"></script>
+    <script src="scenes/GameFinishedScene.js"></script>
+    <script src="scenes/fase-um/Scene5.js"></script>
+    <script src="scenes/fase-um/Scene4.js"></script>
+    <script src="scenes/fase-um/Scene3.js"></script>
+    <script src="scenes/fase-um/Scene2.js"></script>
+    <script src="scenes/fase-um/Scene1.js"></script>
+
+    <script src="main.js"></script>
+    <script src="UIManager.js"></script>
+
+    <!-- Adicionar fonte ao jogo -->
+    <style>
+      @font-face {
+        font-family: "RetroFont";
+        src: url(./assets/fonts/RetroGaming.ttf);
+      }
+      .default {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #phaser-div {
+        margin-top: 50px;
+      }
+    </style>
+    <span style="font-family:'RetroFont'"></span>
+    <!-- -->
+  </head>
+
+  <body>
+
+    <div class="default">
+      <h3>MUNDO JA</h3>
+      <p> ATENÇÃO: É necessário que o som esteja habilitado em algumas partes do jogo. </p>
+      
+      <div id="phaser-div"></div>
+    </div>
+  </body>
+</html>
